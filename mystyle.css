@@ -108,4 +108,23 @@ header {
             }
         }
     }
+
+    .banner {
+        .banner-wrapper {
+
+            .banner-box {
+                h1 {
+
+                }
+
+                p {
+
+                }
+
+                .banner-btn {
+                    
+                }
+            }
+        }
+    }
 }
