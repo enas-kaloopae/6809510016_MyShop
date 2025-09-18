@@ -119,20 +119,21 @@ header {
                 width: 880px;
                 margin: 10px;
 
-
                 h1 {
-                    color: var(--pink);
+                    color: var(--heading-color);
                     font-size: clamp(2rem, 10vw, 6.875rem);
+                    text-shadow: 2px 2px 5px var(--shadow-color);
                 }
 
                 p {
-                    color: var(--grey);
+                    color: var(--text-color);
                     font-size: clamp(1rem, 10vw, 1.875rem);
+                    text-shadow: 1px 1px 3px var(--shadow-color);
                 }
 
                 .banner-btn {
-                    background-color: var(--green);
-                    color: black;
+                    background-color: var(--accent-color);
+                    color: white;
                     max-width: 200px;
                     width: 100%;
                     height: 55px;
