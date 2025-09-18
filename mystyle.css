@@ -150,3 +150,40 @@ header {
         }
     }
 }
+
+.about {
+    background-image: url("resources/background2.jpg");
+    background-size: cover;
+
+    h1 {
+        text-align: center;
+        color: #001f3f;
+        margin-top: 1rem;
+    }
+
+    .row {
+
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+        padding-bottom: 3rem;
+        margin: 2rem;
+
+        .video-container {
+            position: relative;
+            justify-content: center;
+            float: left;
+
+            video {
+                width: 100%;
+                
+            }
+        }
+
+        .content {
+            flex: 1 1 40rem;
+        }
+    }
+}
