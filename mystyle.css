@@ -126,6 +126,7 @@ header {
                 }
 
                 p {
+                    font-family: "Noto Sans Thai", sans-serif;
                     color: var(--text-color);
                     font-size: clamp(1rem, 10vw, 1.875rem);
                     text-shadow: 1px 1px 3px var(--shadow-color);
