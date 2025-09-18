@@ -35,7 +35,7 @@ header {
 
     nav {
         margin: 0 2rem;
-        
+
         .nav-wrapper{
             position: relative;
             height: 150px;
@@ -93,6 +93,7 @@ header {
                 height: auto;
 
                 .menu {
+                    display: none;
                     flex-direction: column;
 
                     li {
