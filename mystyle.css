@@ -17,3 +17,9 @@
     max-width: 1320px;
     margin: 0 auto;
 }
+
+/* Header Section */
+header {
+    height: 800px;
+    background: url("");
+}
