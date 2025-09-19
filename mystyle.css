@@ -154,11 +154,13 @@ header {
 .about {
     background-image: url("resources/background2.jpg");
     background-size: cover;
+    border: 2px solid var(--accent-color);
 
     h1 {
         text-align: center;
         color: #001f3f;
-        margin-top: 1rem;
+        margin-top: 2rem;
+        font-size: 2.85rem;
     }
 
     .row {
@@ -169,7 +171,7 @@ header {
         flex-wrap: wrap;
         padding: 2rem 0;
         padding-bottom: 3rem;
-        margin: 2rem;
+        margin: 1rem;
 
         .video-container {
             position: relative;
@@ -184,6 +186,26 @@ header {
 
         .content {
             flex: 1 1 40rem;
+            font-family: "Nota Sant Thai", sans-serif;
+            font-family: "poppins", sans-serif;
+            justify-content: center;
+            border: 1.5px solid var(--accent-color);
+            border-radius: 20px;
+            padding: 1rem;
+            
+            h3 {
+                text-align: center;
+                font-size: 1.85rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
         }
     }
+     @media  screen and (min-width: 768px) {
+        .row {
+            justify-content: center;
+        }
+     }
 }
