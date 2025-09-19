@@ -185,13 +185,16 @@ header {
         }
 
         .content {
-            flex: 1 1 40rem;
+            background-color: rgb(178, 194, 225);
+            border: 1px solid #eee;       
+            border-radius: 15px;         
+            text-align: center;           
+            padding: 1.5rem;              
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+            width: 800px;
             font-family: "Nota Sant Thai", sans-serif;
             font-family: "poppins", sans-serif;
-            justify-content: center;
-            border: 1.5px solid var(--accent-color);
-            border-radius: 20px;
-            padding: 1rem;
+            
             
             h3 {
                 text-align: center;
@@ -211,3 +214,47 @@ header {
 }
 
 
+
+
+.product h1 {
+    text-align: center;
+    color: #001f3f;
+    margin: 2rem 0;
+
+}
+.product-grid {
+    display: flex;         
+    justify-content: center; 
+    flex-wrap: wrap;      
+    gap: 2rem;           
+    padding: 2rem;         
+}
+
+.product-card {
+    background-color: var(--white);
+    border: 1px solid #eee;       
+    border-radius: 15px;         
+    text-align: center;           
+    padding: 1.5rem;              
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    width: 300px;                 
+}
+
+.product-card img {
+    width: 100%;                 
+    height: 200px;                
+    object-fit: cover;            
+    border-radius: 10px;          
+}
+
+.product-card h3 {
+    color: palevioletred;           
+    margin-top: 1rem;
+}
+
+
+.product-card p {
+    color: gray;           
+    font-size: 1.1rem;
+    font-weight: bold;
+}
